@@ -1,0 +1,46 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.form label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-weight: 500;
+}
+
+.form input[type="number"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #140f1475;
+  border-radius: 6px;
+}
+
+fieldset {
+  border: 1px solid #3db9c2a0;
+  border-radius: 6px;
+  padding: 16px;
+}
+
+legend {
+  padding: 0 12px;
+  font-weight: bold;
+}
+
+.form button {
+  padding: 12px;
+  background-color: #df67c9;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #95445b;
+}
